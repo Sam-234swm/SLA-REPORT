@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SLA Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>SLA Report for {{ date }}</h2>
+    {{ tables[0]|safe }}
+    <br>
+    <a href="/">← Upload another file</a>
+</body>
+</html>
