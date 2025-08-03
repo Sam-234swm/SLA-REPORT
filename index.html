@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SLA Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SLA Report Generator</h1>
+
+  <input type="file" id="csvFile" accept=".csv">
+  <input type="date" id="filterDate">
+  <button onclick="processFile()">Generate Report</button>
+
+  <div id="reportTable"></div>
+  <canvas id="slaChart" width="800" height="400"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
