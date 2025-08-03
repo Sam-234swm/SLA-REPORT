@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #77dd77; /* green header */
+  color: #000;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #d9f2ff; /* light blue rows */
+}
+
+tr:last-child {
+  background-color: #b2f0b2; /* Grand Total row green */
+  font-weight: bold;
+}
